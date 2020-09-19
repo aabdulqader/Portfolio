@@ -1,0 +1,78 @@
+{% extends "base.html"%}
+{% load static%}
+{% block title %}About{% endblock title %}
+{% block aboutactive %}active{% endblock aboutactive %}
+
+{% block body %}
+<div class="alert alert-warning alert-dismissible fade show mb-0" role="alert">
+  <strong>Hello visitor!</strong> I'm looking for job. Feel free to contact meif you like me.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div class="container my-3">
+  <h2 class="text-center my-3 py-3">About me</h2>
+  <div class="row">
+
+
+
+    <div class="col-md-4">
+
+      <div class="card" style="width: 18rem;">
+
+        <img src="https://source.unsplash.com/500x300/?galaxy" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <h5 class="card-title">Developer</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="https://source.unsplash.com/500x300/?milkway" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Entertainer</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="https://source.unsplash.com/500x300/?earth" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Programmer</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container mb-4">
+  <h1 class="text-center mt-4 mb-0">My Coding video</h1>
+  <div class="embed-responsive embed-responsive-16by9 my-5">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+      allowfullscreen></iframe>
+  </div>
+  <div class="container mt -0 mb-2">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tempore accusantium id natus quia in vero
+    repellat enim dolorum! Mollitia sapiente, odio debitis impedit quis veritatis iusto doloribus eum distinctio
+    blanditiis, libero unde officia.</p>
+  </div>
+</div>
+
+
+
+{% endblock body %}
